@@ -1,0 +1,175 @@
+.footer .fixed-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer
+{
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 54px 0 1px;
+
+    letter-spacing: -.32px;
+
+    color: #fff;
+    background-color: #00122f;
+}
+
+.footer-column
+{
+    display: inline-block;
+
+    width: 26%;
+}
+
+.footer-column:nth-child(2)
+{
+    padding-left: 47px;
+}
+
+.footer-column:last-child 
+{
+    width: 22.2%;
+}
+
+.footer-ul
+{
+    margin: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+}
+
+.footer-ul:first-child
+{
+    columns: 2;
+}
+
+.footer-ul-li
+{
+    margin-bottom: 15px;
+}
+
+.footer-logo
+{
+    padding-top: 5px;
+}
+
+.about-us-list
+{
+    margin-top: 17px;
+}
+
+/*социальные сети*/
+.social-net-ul
+{
+    margin: 0 0 37px;
+    padding: 0;
+
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-net-li
+{
+    display: inline-block;
+
+    padding: 15px 0;
+}
+
+.social-net-li:last-child
+{
+    margin-right: 0;
+}
+
+.vk,
+.fb,
+.tw,
+.inst
+{
+    padding: 12px 0 12px 40px;
+
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.vk
+{
+    background-image: url("../img/icon-vk.png");
+}
+
+.fb
+{
+    background-image: url("../img/icon-fb.png");
+}
+
+.tw
+{
+    background-image: url("../img/icon-tw.png");
+}
+
+.inst
+{
+    background-image: url("../img/icon-inst.png");
+}
+
+.contacts-ul
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+/*контакты*/
+.contacts-li:not(:last-child)
+{
+    margin-bottom: 23px;
+}
+
+.tel,
+.e-mail
+{
+    padding-left: 31px;
+
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.tel
+{
+    background-image: url("../img/icon-call.png");
+    background-size: 15px;
+}
+
+.e-mail
+{
+    background-image: url("../img/icon-email.png");
+    background-size: 13px 11px;
+}
+
+.copyright
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+    margin-top: 41px;
+
+    text-align: center;
+    vertical-align: bottom;
+    letter-spacing: -.28px;
+
+    opacity: .4;
+    color: #fff;
+    border-top: 1px solid #26354e;
+}

@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box; 
+}
+
+*,   
+*::before,  
+*::after {  
+	box-sizing: inherit;
+}
+
+body { 
+	min-width: 320px;  
+	margin: 0;
+	background-color: #f9f9f9;  
+	font-family: "Arial", sans-serif; 
+	font-size: 14px;   
+	line-height: normal; 
+	color: #000;
+	overflow-wrap: anywhere;
+}
+
+body.modal-active {
+	overflow: auto; 
+}
+
+img {   
+	max-width: 100%; 
+}
+
+a {   
+	text-decoration: none; 
+	color: inherit;       
+}
+
+.visually-hidden {  
+	position: absolute !important;  
+	clip: rect(1px 1px 1px 1px); 
+	clip: rect(1px, 1px, 1px, 1px); 
+	padding: 0 !important; 
+	border: 0 !important;  
+	height: 1px !important; 
+	width: 1px !important;  
+	overflow: hidden;       
+}
+
+.fixed-container {     
+	max-width: 1060px;    
+	padding: 0 30px;
+	margin: 0 auto;
+}

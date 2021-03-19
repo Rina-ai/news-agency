@@ -1,0 +1,56 @@
+@media (max-width: 960px)
+{    
+    .no-js .menu
+    {
+        order: 0;
+
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+    .no-js .menu-ul
+    {
+        position: static;
+
+        visibility: visible;
+
+        opacity: 1;
+
+        width: calc(100% + 60px);
+        margin-left: calc(0% - 30px);
+    }
+
+    .no-js .menu-btn-close,
+    .no-js .menu-btn-open
+    {
+        display: none;
+    }
+
+    .no-js .menu-ul-li
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+        padding-bottom: 10px;
+
+        border-bottom: 1px solid #efefef;
+    }
+}
+
+@media (max-width: 600px)
+{ 
+    .no-js .menu
+    {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 320px)
+{ 
+    .no-js .menu-ul
+    {
+        width: calc(100% + 40px);
+        margin-left: calc(0% - 20px);
+    }
+}

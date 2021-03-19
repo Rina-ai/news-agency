@@ -1,0 +1,57 @@
+@media (max-width: 600px)
+{
+    .header
+    {
+        margin-bottom: 103px;
+        padding-bottom: 0;
+    }
+
+    .header-bottom
+    {
+        display: flex;
+
+        padding: 0;
+
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header-info
+    {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: -107px;
+
+        order: 4;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .date
+    {
+        margin-right: 0;
+    }
+
+    .time
+    {
+        margin-left: 12px;
+    }
+
+    .text-special
+    {
+        display: none;
+    }
+
+    .banner
+    {
+        margin-right: 19px;
+
+        min-width: 250px;
+    }
+
+    .banner:last-child {
+        overflow: hidden;
+    }
+}

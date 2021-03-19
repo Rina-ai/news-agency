@@ -1,0 +1,103 @@
+@media (max-width: 700px)
+{
+    .day
+    {
+        display: none;
+    }
+
+    .day-short
+    {
+        display: inline-block;
+    }
+    .special-news
+    {
+        width: 100%;
+    }
+
+    .special-ul-li-big
+    {
+        width: 100%;
+    }
+
+    .footer
+    {
+        padding: 45px 0 14px;
+    }
+
+    .footer .fixed-container
+    {
+        flex-direction: column;
+    }
+
+    .footer-column,
+    .footer-column:nth-child(2),
+    .footer-column:last-child
+    {
+        width: 100%;
+    }
+
+    .footer-column:first-child,
+    .footer-column:last-child
+    {
+        border-bottom: 1px solid #26354e;
+    }
+
+    .footer-column:last-child
+    {
+        padding-bottom: 25px;
+    }
+
+    .footer-column:first-child
+    {
+        margin-bottom: 25px;
+        padding-bottom: 28px;
+    }
+
+    .footer-column:nth-child(2)
+    {
+        margin-bottom: 30px;
+    }
+
+    .footer-ul:first-child
+    {
+        column-gap: 0;
+    }
+
+    .about-us-list
+    {
+        display: flex;
+
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .about-us-item
+    {
+        line-height: 21px;
+
+        width: 38%;
+    }
+
+    .social-net-ul
+    {
+        margin-bottom: 40px;
+    }
+
+    .contacts-ul
+    {
+        display: flex;
+
+        margin: 0;
+
+        justify-content: space-around;
+    }
+
+    .copyright
+    {
+        margin-top: 24px;
+
+        text-align: center;
+
+        border-top: none;
+    }
+}

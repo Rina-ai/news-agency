@@ -1,0 +1,111 @@
+.menu .menu-btn-open,
+.menu-close .menu-btn-open,
+.menu-open .menu-btn-close
+{
+    cursor: pointer;
+
+    display: none;
+
+    border: none;
+    background-color: transparent;
+
+    width: 30px;
+    height: 28px;
+    padding: 1px;
+}
+
+.menu-close .menu-btn-open:after,
+.menu-open .menu-btn-close:after
+{
+    left: 0;
+    top: 0;
+}
+
+.menu-close .menu-btn-open:after
+{
+    content: "\2261";
+
+    font-size: 37px;
+    line-height: .8;
+}
+
+.menu-open .menu-btn-close:after
+{
+    content: "\2715";
+    
+    font-size: 27px;
+    line-height: 1;
+}
+
+@media (max-width: 960px)
+{
+    .menu
+    {
+        margin-top: 0;
+
+        order: -1;
+    } 
+
+    .menu-ul
+    {
+        position: absolute;
+        z-index: 11;
+        top: 174px;
+        left: 0;
+
+        visibility: hidden;
+
+        width: 100%;
+        height: 100%;
+        min-height: 527px;
+        padding: 30px;
+
+        transition: opacity .3s, visibility .3s;
+
+        opacity: 0;
+        background: linear-gradient(0deg, #fff 97%, #efefef);
+    }
+
+    .menu-open .menu-ul
+    {
+        visibility: visible;
+
+        transition: opacity .3s, visibility .3s;
+
+        opacity: 1;
+    }
+
+    .menu-open .menu-ul-li
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+        padding-bottom: 10px;
+
+        border-bottom: 1px solid #efefef;
+    }
+
+    .menu-ul-li::after
+    {
+        content: "";
+    }
+
+    .menu-close .menu-btn-open,
+    .menu-open .menu-btn-close
+    {
+        display: block;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .menu-ul
+    {
+        top: 101px;
+    }
+
+    .menu-ul
+    {
+        padding: 25px;
+    }
+}

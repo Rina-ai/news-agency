@@ -1,0 +1,16 @@
+.column-right
+{
+    width: 250px;
+}
+
+.banner
+{
+    display: inline-block;
+
+    margin-bottom: 16px;
+}
+
+.banner:last-child
+{
+    margin-bottom: 0;
+}

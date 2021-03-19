@@ -1,0 +1,32 @@
+@media (max-width: 460px)
+{
+    .headline
+    {
+        font-size: 13px;
+    }
+
+    .column-left
+    {
+        width: 100%;
+    }
+
+    .img-news-small
+    {
+        height: 197px;
+    }
+
+    .news-category
+    {
+        margin-right: 18px;
+    }
+
+    .column-right
+    {
+        padding-left: 25px;
+    }
+
+    .header-info
+    {
+        font-size: 14px;
+    }
+}

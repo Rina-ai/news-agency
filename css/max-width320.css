@@ -1,0 +1,65 @@
+@media (max-width: 320px)
+{
+    .fixed-container
+    {
+        padding: 0 20px;
+    }
+
+    .left-ul
+    {
+        margin-bottom: 9px;
+    }
+
+    .column-left
+    {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        padding-top: 18px;
+    }
+
+    .news-head, 
+    .currency-head
+    {
+        padding-top: 21px;
+    }
+
+    .column-center .news-item-text
+    {
+        width: 97%;
+    }
+
+    .column-right
+    {
+        justify-content: flex-start;
+    }
+
+    .special-news
+    {
+        margin-top: 47px;
+        padding-bottom: 12px;
+    }
+
+    .central-container {
+        padding-bottom: 0;
+    }
+
+    .special-head
+    {
+        order: 0;
+        padding-top: 19px;
+    }
+
+    .footer-ul-li {
+        margin-bottom: 16px;
+    }
+
+    .about-us-list 
+    {
+        margin-top: 20px;
+    }
+
+    .footer-logo
+    {
+        padding-top: 0;
+    }
+}

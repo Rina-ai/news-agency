@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Новостное агенство</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/aside.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/max-width1049.css">
+		<link rel="stylesheet" href="css/max-width960.css">
+		<link rel="stylesheet" href="css/max-width800.css">
+		<link rel="stylesheet" href="css/max-width700.css">
+		<link rel="stylesheet" href="css/max-width600.css">
+		<link rel="stylesheet" href="css/max-width550.css">
+		<link rel="stylesheet" href="css/max-width460.css">
+		<link rel="stylesheet" href="css/max-width320.css">
+		<link rel="stylesheet" href="css/menuBurger.css">
+		<link rel="stylesheet" href="css/no-js.css">
+	</head>
+	<body class="modal-active no-js ">
+		<header class="header">
+			<div class="black-bar">
+				<div class="fixed-container js-black-bar">
+					<h1 class="headline">Самые
+						<a class="head-link" href="#">свежие новости</a> в реальном времени
+					</h1> 
+				</div>
+			</div>
+
+			<div class="fixed-container">
+				<div class="header-bottom"> 
+					<picture> 
+						<source media="(max-width: 600px)" type="image/webp" srcset="img/logo175x24.webp 1x, img/logo340x48.webp 2x">
+
+						<source type="image/webp" srcset="img/logo.webp 1x, img/logo242x80.webp 2x">
+						
+						<source media="(max-width: 600px)" srcset="img/logo175x24.png 1x, img/logo340x48.png 2x">
+						
+						<img class="logo" src="img/logo.png" srcset="img/logo242x80.png 2x" alt="Логотип новостного агенства">
+					</picture>
+
+					<label class="select-wrapper">
+						<select class="custom-select" name="city-selection">
+							<option value="Moscow">Москва</option>
+						</select>
+					</label> 
+				
+					<div class="header-info js-header-info">							
+						<span class="weather">+22&#8451;</span>
+					</div>
+
+					<form class="search">
+						<input class="search-input" name="search" type="search" placeholder="Поиск по сайту">
+
+						<button class="search-button" type="button" aria-label="Поиск по сайту"></button>
+					</form>
+
+					<nav class="menu menu-close js-menu">
+						<button class="menu-btn-open menu-btn-close js-menu-btn" type="button" aria-label="Открыть меню-бургер"></button>
+						
+						<ul class="menu-ul js-menu-ul">
+							<li class="menu-ul-li">
+								<a href="#">Главная</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Политика</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Общество</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Экономика</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">В мире</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Проишествия</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Спорт</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Наука</a>
+							</li>
+
+							<li class="menu-ul-li">
+								<a href="#">Туризм</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>		
+		</header> 
+		
+		<main class="central-container">
+			<div class="fixed-container">
+				<section class="column-left">
+					<h2 class="news-head">Новости дня</h2>
+
+					<ul class="left-ul">
+						<li class="left-ul-li">
+							<article class="news-item">
+								<h3 class="news-item-text">
+									<a href="#">Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018</a>
+								</h3>
+
+								<div class="props-right">
+									<a class="news-category-left" href="#">ЧМ по футболу</a>
+
+									<time class="news-time-left">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="left-ul-li">
+							<article class="news-item">
+								<h3 class="news-item-text">
+									<a href="#">«Нафтогаз»: суд разрешил заморозить активы «Газпрома» в Великобритании</a>
+								</h3>
+
+								<div class="props-right">
+									<a class="news-category-left" href="#">Политика</a>
+
+									<time class="news-time-left">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="left-ul-li">
+							<article class="news-item">
+								<h3 class="news-item-text">
+									<a href="#">Минтранс предписал оборудовать общественный транспорт кондиционерами</a>
+								</h3>
+
+								<div class="props-right">
+									<a class="news-category-left" href="#">Транспорт</a>
+
+									<time class="news-time-left">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="left-ul-li">
+							<article class="news-item">
+								<h3 class="news-item-text">
+									<a href="#">Летние кафе Москвы временно закроются из-за непогоды</a>
+								</h3>
+								
+								<div class="props-right">
+									<a class="news-category-left" href="#">Погода</a>
+
+									<time class="news-time-left">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="left-ul-li">
+							<article class="news-item">
+								<h3 class="news-item-text">
+									<a href="#">Комплексное благоустройство Щелковского шоссе завершится в июне</a>
+								</h3>
+
+								<div class="props-right">
+									<a class="news-category-left" href="#">Транспорт</a>
+
+									<time class="news-time-left">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="left-ul-li">
+							<article class="news-item">
+								<h3 class="news-item-text">
+									<a href="#">В Москве назвали самое популярное мороженое у болельщиков ЧМ-2018</a>
+								</h3>
+
+								<div class="props-right">
+									<a class="news-category-left" href="#">ЧМ по футболу</a> 
+
+									<time class="news-time-left">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+					</ul>
+					
+					<a class="all-news" href="#">Все новости</a>
+				</section>		
+				
+				<section class="column-center">
+					<h2 class="visually-hidden">Основные новости</h2>
+
+					<ul class="center-ul">
+						<li class="center-ul-li">
+							<article class="news-item-big">	
+								<picture> 
+									<source media="(max-width: 4300px)" type="image/webp" srcset="img/news-1-320x320.webp 1x, img/news-1-640x640.webp 2x">
+
+									<source type="image/webp" srcset="img/news-1-462x322.webp 1x, img/news-1-924x644.webp 2x">
+									
+									<source media="(max-width: 430px)" srcset="img/news-1-320x320.jpg 1x, img/news-1-640x640.jpg 2x">
+									
+									<img class="img-news" src="img/news-1-462x322.jpg" srcset="img/news-1-924x644.jpg 2x" alt="Средневековый замок Ласточкино гнездо на Южном берегу Крыма">
+								</picture>
+
+								<a class="news-category-img" href="#">Политика</a>
+
+								<h3 class="news-item-img">
+									<a href="#">В Крыму отреагировали на слова Кравчука о возврате полуострова</a>
+								</h3>
+
+								<time class="news-date-img" datetime="2018-06-19 10:48">19 Июня 2018
+									<span class="news-time-img">10:48</span>
+								</time>
+							</article>
+						</li>
+
+						<li class="center-ul-li">
+							<article class="news-item-center">
+								<picture>
+									<source media="(max-width: 550px)" type="image/webp" srcset="img/news-2-320x198.webp 1x, img/news-2-640x396.webp 2x">
+
+									<source type="image/webp" srcset="img/news-2-221x142.webp 1x, img/news-2-442x282.webp 2x">
+									
+									<source media="(max-width: 550px)" srcset="img/news-2-320x198.jpg 1x, img/news-2-640x396.jpg 2x">
+									
+									<img class="img-news-small" src="img/news-2-221x142.jpg" srcset="img/news-2-442x282.jpg 2x" alt="Алексей Навальный на акции против пенсионной реформы">
+								</picture>	
+
+								<h3 class="news-item-text">
+									<a href="#">Алексей Навальный объявил акцию против пенсионной реформы 1 июля</a>
+								</h3>
+
+								<div class="props-center">
+									<a class="news-category" href="#">Политика</a>
+
+									<time class="news-time">10:48</time>
+
+									<span class="news-comments">15</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="center-ul-li">
+							<article class="news-item-center">
+								<picture>
+									<source media="(max-width: 550px)" type="image/webp" srcset="img/news-3-320x198.webp 1x, img/news-3-640x396.webp 2x">
+
+									<source type="image/webp" srcset="img/news-3-221x142.webp 1x, img/news-3-442x282.webp 2x">
+									
+									<source media="(max-width: 550px)" srcset="img/news-3-320x198.jpg 1x, img/news-3-640x396.jpg 2x">
+									
+									<img class="img-news-small" src="img/news-3-221x142.jpg" srcset="img/news-3-442x282.jpg 2x" alt="загранпаспорта">
+								</picture>	
+
+								<h3 class="news-item-text">
+									<a href="#">Дума увеличила пошлины за выдачу загранпаспортов и водительских прав</a>
+								</h3>
+
+								<div class="props-center">
+									<a class="news-category" href="#">Общество</a>
+
+									<time class="news-time">12:33</time>
+
+									<span class="news-comments">36</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="center-ul-li">
+							<article class="news-item-center">
+								<picture>
+									<source media="(max-width: 550px)" type="image/webp" srcset="img/news-4-320x198.webp 1x, img/news-4-640x396.webp 2x">
+
+									<source type="image/webp" srcset="img/news-4-221x142.webp 1x, img/news-4-442x282.webp 2x">
+									
+									<source media="(max-width: 550px)" srcset="img/news-4-320x198.jpg 1x, img/news-4-640x396.jpg 2x">
+									
+									<img class="img-news-small" src="img/news-4-221x142.jpg" srcset="img/news-4-442x282.jpg 2x" alt="Девушка слушает музыку">
+								</picture>	
+								
+								<h3 class="news-item-text">
+									<a href="#">В России заработал стриминговый сервис YouTube</a>
+								</h3>
+
+								<div class="props-center">
+									<a class="news-category" href="#">Интернет</a>
+
+									<time class="news-time">11:17</time>
+
+									<span class="news-comments">10</span>
+								</div>
+							</article>
+						</li>
+
+						<li class="center-ul-li">
+							<article class="news-item-center">
+								<picture>
+									<source media="(max-width: 550px)" type="image/webp" srcset="img/news-5-320x198.webp 1x, img/news-5-640x396.webp 2x">
+
+									<source type="image/webp" srcset="img/news-5-221x142.webp 1x, img/news-5-442x282.webp 2x">
+									
+									<source media="(max-width: 550px)" srcset="img/news-5-320x198.jpg 1x, img/news-5-640x396.jpg 2x">
+									
+									<img class="img-news-small" src="img/news-5-221x142.jpg" srcset=" img/news-5-442x282.jpg 2x" alt="Кейн на футбольном поле">
+								</picture>
+								
+								<h3 class="news-item-text">
+									<a href="#">Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия</a>
+								</h3>
+					
+								<div class="props-center">	
+									<a class="news-category" href="#">Политика</a>
+
+									<time class="news-time">11:39</time>
+
+									<span class="news-comments">25</span>
+								</div>
+								
+							</article>
+						</li>
+					</ul>
+				</section> 
+
+				<aside class="column-right">
+					<a class="banner" href="#">
+						<picture>
+							<source type="image/webp" srcset="img/banner-1-250x400.webp 1x, img/banner-1-500x800.webp 2x">
+									
+							<img class="banner-img" src="banner-1-250x400.jpg" srcset=" banner-1-500x800.jpg 2x" alt="Рекламный баннер на специальные цены Lexus NS">
+						</picture>
+					</a>
+					
+					<a class="banner" href="#">
+						<picture>
+							<source type="image/webp" srcset="img/banner-2-250x400.webp 1x, img/banner-2-500x800.webp 2x">
+									
+							<img class="banner-img" src="img/banner-2-250x400.jpg" srcset="img/banner-2-500x800.jpg 2x" alt="Рекламный баннер фитнес карты">
+						</picture>
+					</a>
+				</aside>
+
+				<article class="currency js-currency">
+					<h2 class="currency-head">Курсы валют</h2>
+				</article> 
+
+				<section class="special-news">
+					<div class="special-news-right">
+						<h2 class="news-head special-head">Самые читаемые новости</h2>
+
+						<ul class="special-ul special-small-ul">
+							<li class="special-ul-li">
+								<article class="news-item">
+									<h3 class="news-special-item-text">
+										<a href="#">В Турции пообещали найти альтернативу из-за отказа США поставить F-35</a>
+									</h3>
+
+									<a class="news-category" href="#">Политика</a>
+
+									<time class="news-time">11:39</time>
+
+									<span class="news-comments">25</span>
+								</article>
+							</li>
+
+							<li class="special-ul-li ">
+								<article class="news-item">
+									<h3 class="news-special-item-text">
+										<a href="#">Назван минимальный доход для причисления к среднему классу‍</a>
+									</h3>
+
+									<a class="news-category" href="#">Политика</a>
+
+									<time class="news-time">11:39</time>
+
+									<span class="news-comments">25</span>
+								</article>
+							</li>
+
+							<li class="special-ul-li">
+								<article class="news-item">
+									<h3 class="news-special-item-text">
+										<a href="#">Назван минимальный доход для причисления к среднему классу‍</a>
+									</h3>
+
+									<a class="news-category" href="#">Политика</a>
+
+									<time class="news-time">11:39</time>
+
+									<span class="news-comments">25</span>
+								</article>
+							</li>
+						</ul>
+					</div>
+					
+
+					<ul class="special-ul-big">
+						<li class="special-ul-li-big">
+							<article class="news-item-big">
+								<a class="news-category-img" href="#">Политика</a>
+
+								<h3 class="news-item-img">
+									<a href="#">Пекин обвинил Вашингтон в развязывании торговой войны</a>
+								</h3>
+
+								<picture>
+									<source media="(max-width: 450px)" type="image/webp" srcset="himg/news-6-320x309.webp 1x, img/news-6-640x618.webp 2x">
+
+									<source type="image/webp" srcset="img/news-6-588x393.webp 1x, img/news-6-1176x786.webp 2x">
+									
+									<source media="(max-width: 450px)" srcset="img/news-6-320x309.jpg 1x, img/news-6-640x618.jpg 2x">
+									
+									<img class="img-news" src="img/news-6-588x393.jpg" srcset="img/news-6-1176x786.jpg 2x" alt="Фура грузоперевозки в Китае">
+								</picture>
+
+								<time class="news-date-img" datetime="2018-06-19 10:48">19 Июня 2018
+									<span class="news-time-img">10:48</span>
+								</time>
+
+								<p class="text-special">Министерство коммерции Китая заявило, что Пекин примет «качественные» и «количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары</p>
+							</article>
+						</li>
+					</ul>
+					
+					
+				</section>  
+			</div>
+		</main> 
+
+		<footer class="footer">
+			<div class="fixed-container">
+				<div class="footer-column">
+					<ul class="footer-ul">
+						<li class="footer-ul-li">
+							<a href="#">Главная</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Политика</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Общество</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Экономика</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">В мире</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Проишествия</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Спорт</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Наука</a>
+						</li>
+						<li class="footer-ul-li">
+							<a href="#">Туризм</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="footer-column">
+					<picture> 
+						<source type="image/webp" srcset="img/logo-footer121x40.webp 1x, img/logo-footer242x80.webp 2x">
+						
+						<img class="footer-logo" src="img/logo-footer121x40.png" srcset="img/logo-footer242x80.png 2x" alt="Логотип новостного агенства">
+					</picture>
+
+					<ul class="footer-ul about-us-list">
+						<li class="footer-ul-li about-us-item">
+							<a href="#">Об агенстве</a>
+						</li>
+						<li class="footer-ul-li about-us-item">
+							<a href="#">Контакты</a>
+						</li>
+						<li class="footer-ul-li about-us-item">
+							<a href="#">Опубликовать новость</a>
+						</li>
+					</ul>
+				</div>
+					
+				<div class="footer-column">
+					<ul class="social-net-ul">
+						<li class="social-net-li">
+							<a class="vk" href="#" aria-label="Новостное агенство в ВКонтакте"></a>
+						</li>
+						<li class="social-net-li">
+							<a class="fb" href="#" aria-label="Новостное агенство в FaceBook"></a>
+						</li>
+						<li class="social-net-li">
+							<a class="tw" href="#" aria-label="Новостное агенство в Twitter"></a>
+						</li>
+						<li class="social-net-li">
+							<a class="inst" href="#" aria-label="Новостное агенство в Instagram"></a>
+						</li>
+					</ul>
+
+					<address>
+						<ul class="contacts-ul">
+							<li class="contacts-li">
+								<a class="tel" href="tel:+74999955555">+7 (499) 995-55-55</a>
+							</li>
+							<li class="contacts-li">
+								<a class="e-mail" href="mailto:info@agency.ru">info@agency.ru</a>
+							</li>
+						</ul>
+					</address>
+				</div>	
+			</div>
+			
+			<div class="copyright"> 
+				<p class="copyright-text">&#169; Новостное агенство, 2017-2018 все права защищены</p>
+			</div>
+		</footer> 
+
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/script.js"></script>	
+	</body>
+</html>
