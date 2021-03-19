@@ -10,4 +10,4 @@
 
 В результате получилась адаптивная, гибкая, cемантическая, валидная и кроссбраузерная верстка главной страницы новостного агенства.
 
-https://rina-ai.github.io/new-sagency-website.github.io/
+https://rina-ai.github.io/news-agency.github.io/
